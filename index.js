@@ -11,6 +11,7 @@ app.post("/test", (req,res) => {
     var string_to_manipulate = req.body.string_to_cut;
     var index = 0;
     var out = '';
+    //loop through the string to cut in order to get every third character
     while (string_to_manipulate[index]){
         if((index + 1) % 3 == 0){
             out += string_to_manipulate[index];
