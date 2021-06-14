@@ -1,5 +1,4 @@
 import Express, { response, urlencoded } from "express";
-//import Products from "./products.js";
 
 
 const app = Express();
